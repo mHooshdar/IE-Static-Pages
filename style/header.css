@@ -1,5 +1,5 @@
 h1{
-    color: rgb(112, 112, 112);
+    color: rgb(102, 102, 102);
     display: inline;
     position: absolute;
     top: 20px; 
@@ -8,8 +8,8 @@ h1{
     font-weight: lighter;
 }
 header{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-bottom: 1px solid rgb(240, 240, 240)
 }
 
@@ -23,7 +23,7 @@ header{
     color: rgb(255, 255, 255);
 }
 .sign-up-btn{
-    color: rgb(112, 112, 112);
+    color: rgb(102, 102, 102);
     width: 100px;
     border: 1px rgb(102, 102, 102) solid;
 }
@@ -49,7 +49,11 @@ header{
     padding: 0;
 }
 .navigation-item{
+    text-decoration: none;
     display: inline-block;
-    width: 16.1%;
+    width: 16%;
     text-align: center;
+    color: rgb(102, 102, 102);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
