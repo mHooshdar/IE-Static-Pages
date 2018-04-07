@@ -1,0 +1,55 @@
+h1{
+    color: rgb(112, 112, 112);
+    display: inline;
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+}
+header{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid rgb(240, 240, 240)
+}
+
+.top-header{
+    margin-top: 40px;
+}
+.sign-in-btn{
+    width: 100px;
+    border: 1px rgb(102, 102, 102) solid;
+    background: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+.sign-up-btn{
+    color: rgb(112, 112, 112);
+    width: 100px;
+    border: 1px rgb(102, 102, 102) solid;
+}
+.search{
+    float: left;
+    border: 1px rgb(102, 102, 102) solid;
+    border-radius: 12px;
+    background: url(../images/search.png) no-repeat scroll 5px 5px;
+    background-size: 20px;
+    padding-left: 35px;
+    padding-right: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.search:focus{
+    outline-width: 0;
+}
+
+.navigation-list{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+}
+.navigation-item{
+    display: inline-block;
+    width: 16.1%;
+    text-align: center;
+}

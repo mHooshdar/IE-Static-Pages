@@ -1,0 +1,16 @@
+@import url("font.css");
+@import url("header.css");
+
+*{
+    font-family: Shabnam;
+    font-weight: lighter;
+}
+
+.block-button{
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
