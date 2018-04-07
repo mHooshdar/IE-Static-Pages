@@ -8,35 +8,41 @@ h1{
     font-weight: lighter;
 }
 header{
-    margin-left: 7%;
-    margin-right: 7%;
-    border-bottom: 1px solid rgb(240, 240, 240)
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 .top-header{
     margin-top: 40px;
 }
+
+.top-header hr{
+    border: 1px solid rgb(240, 240, 240);
+}
 .sign-in-btn{
-    width: 100px;
+    width: 130px;
+    font-size: 20px;
     border: 1px rgb(102, 102, 102) solid;
     background: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
 }
 .sign-up-btn{
     color: rgb(102, 102, 102);
-    width: 100px;
+    font-size: 20px;
+    width: 130px;
     border: 1px rgb(102, 102, 102) solid;
 }
 .search{
     float: left;
     border: 1px rgb(102, 102, 102) solid;
-    border-radius: 12px;
-    background: url(../images/search.png) no-repeat scroll 5px 5px;
+    border-radius: 15px;
+    background: url(../images/search.png) no-repeat scroll 10px 10px;
     background-size: 20px;
-    padding-left: 35px;
+    padding-left: 40px;
     padding-right: 10px;
-    height: 30px;
-    width: 200px;
+    width: 290px;
+    height: 40px;
+    font-size: 20px;
 }
 
 .search:focus{
@@ -47,9 +53,10 @@ header{
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
-    padding: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .navigation-item{
     flex: 1;
@@ -57,4 +64,38 @@ header{
     display: inline-block;
     text-align: center;
     color: rgb(102, 102, 102);
+}
+
+.navigation-list-2{
+    text-align: center;
+    display: flex;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navigation-item-2{
+    border-radius: 5px;
+    flex: 1;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    color: rgb(102, 102, 102);
+    border: 1px solid rgb(102, 102, 102);
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px rgb(200, 200, 200);
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+
+.navigation-item-2 img{
+    display: block;
+    margin: auto;
+}
+.image-navigation-2{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 15px;
 }
