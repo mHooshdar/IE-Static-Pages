@@ -7,13 +7,11 @@ h1{
     transform: translate(-50%, -50%);
     font-weight: lighter;
 }
-header{
-    margin-left: 9%;
-    margin-right: 9%;
-}
 
 .top-header{
     margin-top: 40px;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
 .top-header hr{
@@ -69,8 +67,6 @@ header{
 .navigation-list-2{
     text-align: center;
     display: flex;
-    margin-left: 12%;
-    margin-right: 12%;
     padding: 0;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -88,6 +84,13 @@ header{
     box-shadow: 1px 1px 1px rgb(200, 200, 200);
     padding-bottom: 10px;
     font-size: 19px;
+}
+
+.navigation-item-2:first-child{
+    margin-right: 0;
+}
+.navigation-item-2:last-child{
+    margin-left: 0;
 }
 
 .navigation-item-2 img{

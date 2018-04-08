@@ -2,11 +2,20 @@
 @import url("header.css");
 @import url("footer.css");
 
+.content{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
 *{
     font-family: Shabnam;
     font-weight: lighter;
     padding: 0;
     margin: 0;
+}
+
+p{
+    margin-bottom: 10px;
 }
 
 .block-button{

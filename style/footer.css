@@ -3,13 +3,8 @@ footer{
     padding: 0;
     display: flex;
     background: rgb(239, 239, 239);
-    padding-right: 12%;
-    padding-left: 12%;
     padding-top: 35px;
     padding-bottom: 50px;
-}
-.footer-col {
-    display: inline-block;
 }
 .col1{
     flex: 4;
@@ -35,7 +30,6 @@ footer{
     font-weight: bold;
     font-size: 17px;
     color: rgb(112, 112, 112);
-    padding-bottom: 7px;
 }
 .col3 .footer-col-header{
     font-size: 19px;

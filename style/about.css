@@ -1,1 +1,141 @@
 @import url("style/general.css");
+
+.about-box{
+    border: 1px solid rgb(220, 220, 220);
+    color: rgb(102, 102, 102);
+}
+.about-row-flex{
+    display: flex;
+}
+.about-row{
+    margin-bottom: 20px;
+}
+.about-col1{
+    flex: 2;
+    padding: 10px;
+}
+.about-col2{
+    flex: 1;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.about-header-box{
+    text-align: center;
+    font-weight: bold;
+}
+.about-col2-inner-box{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.about-col1-inner-box1{
+    flex: 2;
+    margin-left: 20px;
+    text-align: justify;
+}
+.about-col1-inner-box2{
+    flex: 5;
+    margin-right: 20px;
+    text-align: justify;
+}
+.about-col1-image{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.7;
+}
+.about-col1-inner-box1 hr{
+    border: 1px solid rgb(240, 240, 240);
+}
+.about-col1-header{
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.about-all-brands{
+    opacity: 0.2;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.all-brands-button{
+    border: 1px solid rgb(102, 102, 102);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    background: rgb(59, 85, 230);
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-email-us{
+    background: rgb(59, 85, 230);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(59, 85, 230);
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgb(100, 100, 100);
+}
+
+.about-email-image{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newsletter-p{
+    font-size: 20px;
+}
+.join-p{
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.email-textfield{
+    text-align: right;
+    background: url(../images/email2.png) no-repeat scroll 95% 15px;
+    background-color: rgb(255, 255, 255);
+    background-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 12px;
+    padding-right: 60px;
+    border-radius: 25px;
+    width: 60%;
+}
+
+.email-textfield[placeholder]{
+    color: rgb(40, 35, 186);
+}
+
+.join-button{
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 32);
+    display: block;
+    width: 100px;
+    font-size: 15px;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
