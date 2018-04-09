@@ -38,8 +38,8 @@ h1{
     background-size: 20px;
     padding-left: 40px;
     padding-right: 10px;
-    width: 290px;
-    height: 40px;
+    width: 23%;
+    height: 38px;
     font-size: 20px;
 }
 
@@ -49,8 +49,8 @@ h1{
 
 .navigation-list{
     display: flex;
-    margin-left: 20%;
     margin-right: 20%;
+    margin-left: 20%;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 20px;
@@ -59,7 +59,6 @@ h1{
 .navigation-item{
     flex: 1;
     text-decoration: none;
-    display: inline-block;
     text-align: center;
     color: rgb(102, 102, 102);
 }

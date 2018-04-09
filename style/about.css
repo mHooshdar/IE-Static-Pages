@@ -75,7 +75,7 @@
     -ms-transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     background: rgb(59, 85, 230);
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 50px;
     padding: 10px;
     padding-left: 40px;
@@ -101,10 +101,10 @@
 }
 
 .newsletter-p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .join-p{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     padding-bottom: 25px;
 }
@@ -124,6 +124,10 @@
 
 .email-textfield[placeholder]{
     color: rgb(40, 35, 186);
+}
+
+.email-textfield:focus{
+    outline-width: 0;
 }
 
 .join-button{

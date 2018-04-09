@@ -1,26 +1,26 @@
 @font-face {
     font-family: Shabnam;
-    src: url('../fonts/Shabnam.eot');
-    src: url('../fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Shabnam.woff') format('woff'),
-         url('../fonts/Shabnam.ttf') format('truetype');
+    src: url('../fonts/Shabnam-FD.eot');
+    src: url('../fonts/Shabnam-FD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-FD.woff') format('woff'),
+         url('../fonts/Shabnam-FD.ttf') format('truetype');
     font-weight: normal;
   }
         
   @font-face {
     font-family: Shabnam;
-    src: url('../fonts/Shabnam-Bold.eot');
-    src: url('../fonts/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Shabnam-Bold.woff') format('woff'),
-         url('../fonts/Shabnam-Bold.ttf') format('truetype');
+    src: url('../fonts/Shabnam-Bold-FD.eot');
+    src: url('../fonts/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-Bold-FD.woff') format('woff'),
+         url('../fonts/Shabnam-Bold-FD.ttf') format('truetype');
     font-weight: bold;
   }
   
   @font-face {
     font-family: Shabnam;
-    src: url('../fonts/Shabnam-Light.eot');
-    src: url('../fonts/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Shabnam-Light.woff') format('woff'),
-         url('../fonts/Shabnam-Light.ttf') format('truetype');
+    src: url('../fonts/Shabnam-Light-FD.eot');
+    src: url('../fonts/Shabnam-Light-FD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-Light-FD.woff') format('woff'),
+         url('../fonts/Shabnam-Light-FD.ttf') format('truetype');
     font-weight: 300;
   }
