@@ -1,3 +1,6 @@
+.contact-start{
+    margin-top: 40px;
+}
 .contact-top{
     color: rgb(102, 102, 102);
     padding-right: 8%;
@@ -74,7 +77,9 @@
 }
 
 .contact-map-col1{
-    flex: 3
+    flex: 3;
+    text-align: justify;
+    margin-left: 40px;
 }
 .contact-map-col2{
     flex: 5
