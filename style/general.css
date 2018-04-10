@@ -17,6 +17,9 @@ body{
 p{
     margin-bottom: 10px;
 }
+b{
+    font-weight: bold;
+}
 .block-button{
     display: inline-block;
     border-radius: 20px;
