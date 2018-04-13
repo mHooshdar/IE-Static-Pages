@@ -111,6 +111,7 @@
 
 .email-textfield{
     text-align: right;
+    color: rgb(102, 102, 102);
     background: url(../images/email2.png) no-repeat scroll 95% 15px;
     background-color: rgb(255, 255, 255);
     background-size: 25px;
@@ -122,12 +123,14 @@
     width: 60%;
 }
 
-.email-textfield[placeholder]{
+.email-textfield::placeholder{
     color: rgb(40, 35, 186);
 }
 
 .email-textfield:focus{
     outline-width: 0;
+    background: url(../images/email2.png) no-repeat scroll 95% 15px;
+
 }
 
 .join-button{

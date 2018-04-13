@@ -26,6 +26,9 @@ footer{
     font-size: 16px;
     padding-bottom: 3px;
 }
+.footer-col-item:hover{
+    color: rgb(59, 85, 230);
+}
 .footer-col-header{
     font-weight: bold;
     font-size: 17px;
@@ -36,10 +39,33 @@ footer{
 }
 .social-media{
     display: inline-block;
-    background-size: 35px;
     width: 35px;
     height: 35px;
     padding: 3px;
+}
+.footer-social-media-flex-container .facebook{
+    background: url("../images/facebook.png") no-repeat;
+    background-size: 35px;
+}
+.footer-social-media-flex-container .facebook:hover{
+    background: url("../images/facebook-hover.png") no-repeat;
+    background-size: 35px;
+}
+.footer-social-media-flex-container .twitter{
+    background: url("../images/twitter.png") no-repeat;
+    background-size: 35px;
+}
+.footer-social-media-flex-container .twitter:hover{
+    background: url("../images/twitter-hover.png") no-repeat;
+    background-size: 35px;
+}
+.footer-social-media-flex-container .google-plus{
+    background: url("../images/google+.png") no-repeat;
+    background-size: 35px;
+}
+.footer-social-media-flex-container .google-plus:hover{
+    background: url("../images/google+-hover.png") no-repeat;
+    background-size: 35px;
 }
 .footer-license{
     font-weight: bold;
