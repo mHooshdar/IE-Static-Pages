@@ -89,14 +89,36 @@
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    border: 1px rgb(110, 110, 110);
+    border: 1px solid rgb(240, 242, 247);
     background: rgb(240, 242, 247);
     border-radius: 20px;
     color: rgb(110, 110, 110);
     font-size: 11px;
 }
+.return-form select{
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgb(240, 242, 247);
+    background-image: url("../images/bot-arrow.png");
+    background-position:  10px 15px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.return-form select:focus{
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background: rgb(255, 255, 255);
+    background-image: url("../images/bot-arrow.png");
+    background-position:  10px 15px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
 .return-textfield:focus{
     outline-width: 0;
+    border: 1px solid rgb(59, 85, 230);
+    background: rgb(255, 255, 255);
 }
 .return-order-hr{
     margin-top: 60px;
@@ -115,5 +137,6 @@
     outline-width: 0;
 }
 .return-submit-button:hover{
-    cursor: pointer
+    cursor: pointer;
+    background: rgb(50, 70, 210);
 }

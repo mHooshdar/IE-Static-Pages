@@ -20,14 +20,14 @@ h1{
 .sign-in-btn{
     width: 130px;
     font-size: 20px;
-    border: 1px rgb(102, 102, 102) solid;
+    border: 1px solid rgb(102, 102, 102);
     background: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
 .sign-in-btn:hover{
-    border: 1px rgb(59, 85, 230) solid;
+    border: 1px solid rgb(59, 85, 230);
     background: rgb(59, 85, 230);
     color: rgb(255, 255, 255);
     -webkit-transition: background 0.3s;
@@ -37,7 +37,7 @@ h1{
     color: rgb(102, 102, 102);
     font-size: 20px;
     width: 130px;
-    border: 1px rgb(102, 102, 102) solid;
+    border: 1px solid rgb(102, 102, 102);
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
     -webkit-transition: border 0.3s;
@@ -45,7 +45,7 @@ h1{
 }
 .sign-up-btn:hover{
     color: rgb(59, 85, 230);
-    border: 1px rgb(59, 85, 230) solid;
+    border: 1px solid rgb(59, 85, 230);
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
     -webkit-transition: border 0.3s;

@@ -129,8 +129,9 @@
 
 .email-textfield:focus{
     outline-width: 0;
-    background: url(../images/email2.png) no-repeat scroll 95% 15px;
-
+    background: url(../images/email2-focus.png) no-repeat scroll 95% 15px;
+    background-size: 25px;
+    background-color: rgb(255, 255, 255);
 }
 
 .join-button{
@@ -145,4 +146,7 @@
     padding: 13px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.join-button:hover{
+    background: rgb(34, 38, 64);
 }
