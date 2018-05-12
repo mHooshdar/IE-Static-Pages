@@ -1,0 +1,37 @@
+.online-support{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    background: rgb(59, 85, 230);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-right: 10px;
+}
+.online-support p{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.online-support img{
+    display: inline-block;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.online-support:hover{
+    cursor: pointer;
+}
+.online-support-clicked{
+
+}
