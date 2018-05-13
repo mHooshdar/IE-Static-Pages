@@ -78,4 +78,25 @@
     background: rgb(233, 233, 233);
     border: 3px solid rgb(200, 200, 200);
     height: 60px;
+    /* padding: 10px; */
+}
+.input-support{
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 0 10px 10px 0;
+    font-size: 16px;
+    padding: 12px 15px;
+    vertical-align: middle;
+    margin: 6px 10px 6px -5px;
+    width: 296px;
+}
+.send-button{
+    display: inline-block;
+    background: url(../images/send.png) no-repeat 9px 9px;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    border-radius: 10px 0 0 10px;
+    vertical-align: middle;
 }
