@@ -9,7 +9,6 @@ document.onreadystatechange = () => {
     }
   };
 
-
 (function() {
     function reqListener() {
         var data = JSON.parse(this.responseText);
@@ -77,10 +76,7 @@ function sendMessage(){
             myProfile.setAttribute("src", "images/support-online.png");
             
             myMessageContainer.appendChild(myProfile);
-
-            console.log("added");
         }
-        console.log(data);
     }
     function reqError(err) {
         console.log('Send Message Error: ', err);
@@ -114,8 +110,6 @@ function fetch(){
     
             supportMessageContainer.appendChild(supportMessage);
         }
-
-        console.log(data);
     }
     function reqError(err) {
         console.log('Error Fetch: ', err);
