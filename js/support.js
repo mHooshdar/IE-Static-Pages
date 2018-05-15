@@ -65,17 +65,24 @@ function sendMessage(){
             
             mainContainer.appendChild(myMessageContainer);
 
-            var myMessage = document.createElement("div");
+            var myMessage = document.createElement("p");
             myMessage.className = "message my-message";
             myMessage.innerHTML = inputText;
-
-            myMessageContainer.appendChild(myMessage);
             
+            myMessageContainer.appendChild(myMessage);
+
             var myProfile = document.createElement("img");
             myProfile.className = "profile my-profile";
             myProfile.setAttribute("src", "images/support-online.png");
             
             myMessageContainer.appendChild(myProfile);
+
+            var myDate = document.createElement("p");
+            myDate.className = "message-date my-date";
+            var date = new Date();
+            myDate.innerHTML = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " - " + date.getFullYear() + "/" + date.getMonth() + "/" + date.getDay();
+
+            myMessageContainer.appendChild(myDate);
         }
     }
     function reqError(err) {
@@ -104,11 +111,18 @@ function fetch(){
             
             supportMessageContainer.appendChild(supportProfile);
     
-            var supportMessage = document.createElement("div");
+            var supportMessage = document.createElement("p");
             supportMessage.className = "message support-message";
             supportMessage.innerHTML = data.responses[i].message;
     
             supportMessageContainer.appendChild(supportMessage);
+
+            var supportDate = document.createElement("p");
+            supportDate.className = "message-date support-date";
+            var date = new Date(data.responses[i].date);
+            supportDate.innerHTML = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " - " + date.getFullYear() + "/" + date.getMonth() + "/" + date.getDay();
+    
+            supportMessageContainer.appendChild(supportDate);
         }
     }
     function reqError(err) {

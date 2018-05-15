@@ -142,6 +142,26 @@
                 </div>
             </div>
         </div>
+        <div class="online-support-clicked">
+            <div class="header-online-support">
+                <img class="support-image" src="images/support-online.png" alt="support-online">
+                <div class="name-part">
+                    <p class="support-role">پشتیبان بخش فروش</p>
+                    <p class="support-name">احمد مصطفایی</p>
+                </div>
+                <img class="minimize" src="images/minimze.png" alt="minimze" onclick="supportHide()">
+            </div>
+            <div class="main-online-support">
+            </div>
+            <div class="bottom-online-support">
+                <input class="input-support" type="text" placeholder="متن پیام به پشتیبانی ...">
+                <div class="send-button" onclick="sendMessage()"></div>
+            </div>
+        </div>
+        <div class="online-support" onclick="supportShow()">
+            <img src="images/support-online.png" alt="email-us">
+            <p>پشتیبانی آنلاین</p>
+        </div>
         <footer class="content">
             <div class="col1">
                 <p class="footer-col-header">خدمات مشتریان</p>
@@ -176,5 +196,6 @@
                 </p>
             </div>
         </footer>
+        <script src="./js/support.js"></script>
     </body>
 </html>

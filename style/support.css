@@ -127,7 +127,8 @@
     border-radius: 5px;
     padding: 20px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 0;
+    /* padding-bottom: 15px; */
 }
 .profile{
     display: inline-block;
@@ -159,4 +160,17 @@
 }
 .support-profile{
     margin-left: 10px;
+}
+.message-date{
+    font-size: 10px;
+    margin-top: 0px;
+    /* padding-bottom: 15px; */
+}
+.support-date{
+    text-align: left;
+    margin-left: 15px;
+}
+.my-date{
+    text-align: right;
+    margin-right: 15px;
 }
