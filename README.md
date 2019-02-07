@@ -1,2 +1,2 @@
 # InternetEngineering
-Just with HTML and CSS and Javascript
+Just with HTML, CSS and JavaScript
